@@ -1,0 +1,13 @@
+<div class="layout">
+  <div class="main-container">
+    <app-hero></app-hero>
+    <app-block *ngFor="let inputInfo of inputArray" [received]="inputInfo"></app-block>
+    <div class="button-container">
+      <button>Start your journey today!</button>
+    </div>
+    <div class="footer">
+      Copyright © 2023 DECODE
+    </div>
+  </div>
+</div>
+
